@@ -1,3 +1,6 @@
+---
+tags: [keyword1, keyword2]
+---
 # Questions
 - [Main Question 1](#link-to-answer)
   - [Follow-up Question 1](#link-to-follow-up)
