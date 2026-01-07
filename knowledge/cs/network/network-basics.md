@@ -7,6 +7,10 @@ tags: [network, concept, protocol]
   - [What's the Host?](#whats-the-host)
   - [What's the Router?](#whats-the-router)
   - [What's the Network Switch?](#whats-the-network-switch)
+  - [What's the MAC address?](#whats-the-mac-address)
+  - [What's the difference between Physical Address and Network Address?](#whats-the-difference-between-physical-address-and-network-address)
+  - Why do we need a Physical Address(MAC) if we already have a Logical Address(IP) for communication?
+  - If a MAC address is unique globally, why do we still need an IP address to find a host?
 - [How are hosts identified within a network?](#how-are-hosts-identified-within-a-network)
 - [What is a hostname, and how is it resolved to a network address?](#what-is-a-hostname-and-how-is-it-resolved-to-a-network-address)
 - [What’s the throughput?](#whats-the-throughput)
@@ -42,6 +46,8 @@ A network host is a computer or other device connected to a computer network.
 A host may work as a server offering information resources, services, and applications to users or other hosts on the network.
 Hosts are assigned at least one network address.
 
+> 식별해야 보낼 수 있으니까, Network Address는 반드시 하나이상.
+
 ### Reference
 - [Host (network) - Wikipedia](https://en.wikipedia.org/wiki/Host_(network))
 
@@ -64,6 +70,34 @@ A network switch is a multiport network bridge that uses **MAC addresses** to fo
 
 ### Reference
 - [Network switch - Wikipedia](https://en.wikipedia.org/wiki/Network_switch)
+
+---
+
+## What's the MAC address?
+### Keywords
+unique identifier, NIC, network segment
+
+### Official Answer
+A MAC address is a **unique identifier** assigned to a network interface controller (NIC) for use as a network address in communications within a network segment.
+
+MAC addresses are primarily assigned by device manufacturers, and are therefore often referred to as a physical address.
+
+### Reference
+- [MAC address - Wikipedia](https://en.wikipedia.org/wiki/MAC_address)
+
+---
+
+## What's the difference between Physical Address and Network Address?
+### AI answer
+MAC Address가 넓은 의미에서는 Network Address가 맞긴하지만,
+
+정확하게 구분한다면 Mac Address는 Physical Address라고 부르고,
+
+IP Address를 Network Address라고 부른다.
+
+### Reference
+- [MAC address - Wikipedia](https://en.wikipedia.org/wiki/MAC_address)
+- [IP address - Wikipedia](https://en.wikipedia.org/wiki/IP_address)
 
 ---
 
