@@ -4,6 +4,9 @@ tags: [network, concept, protocol]
 
 # Questions
 - [What’s the Network?](#whats-the-network)
+  - [What's the Host?](#whats-the-host)
+  - [What's the Router?](#whats-the-router)
+  - [What's the Network Switch?](#whats-the-network-switch)
 - [How are hosts identified within a network?](#how-are-hosts-identified-within-a-network)
 - [What is a hostname, and how is it resolved to a network address?](#what-is-a-hostname-and-how-is-it-resolved-to-a-network-address)
 - [What’s the throughput?](#whats-the-throughput)
@@ -30,6 +33,37 @@ A network is a group of communicating [computers](https://en.wikipedia.org/wiki/
 ### Reference
 - [Host (network) - Wikipedia](https://en.wikipedia.org/wiki/Host_(network))
 - [Communication protocol - Wikipedia](https://en.wikipedia.org/wiki/Communication_protocol)
+
+---
+
+## What's the Host?
+### Official Answer
+A network host is a computer or other device connected to a computer network.
+A host may work as a server offering information resources, services, and applications to users or other hosts on the network.
+Hosts are assigned at least one network address.
+
+### Reference
+- [Host (network) - Wikipedia](https://en.wikipedia.org/wiki/Host_(network))
+
+---
+
+## What's the Router?
+### Official Answer
+A router is a networking device that forwards data packets **between computer networks**, including internetworks such as the global Internet.
+
+### Reference
+- [Router (computing) - Wikipedia](https://en.wikipedia.org/wiki/Router_(computing))
+
+---
+
+## What's the Network Switch?
+### Official Answer
+A network switch is networking hardware that connects devices **on a computer network** to receive and forward data to the destination device.
+
+A network switch is a multiport network bridge that uses **MAC addresses** to forward data at the data link layer (layer 2) of the OSI model.
+
+### Reference
+- [Network switch - Wikipedia](https://en.wikipedia.org/wiki/Network_switch)
 
 ---
 
