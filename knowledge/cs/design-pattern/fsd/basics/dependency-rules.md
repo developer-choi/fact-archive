@@ -5,7 +5,7 @@ tags: [fsd, dependency, rules, unidirectional]
 # Questions
 - [Why is the unidirectional dependency rule important, and what happens if we violate it?](#why-is-the-unidirectional-dependency-rule-important-and-what-happens-if-we-violate-it)
   - [Why is it forbidden for a slice to reference another slice within the same layer?](#why-is-it-forbidden-for-a-slice-to-reference-another-slice-within-the-same-layer)
-- [[TODO] What is the role of the 'Public API' (index.ts) in an FSD slice?](#todo-what-is-the-role-of-the-public-api-indexts-in-an-fsd-slice)
+- [What is the role of the Public API in an FSD slice, and how does it support refactoring?](#what-is-the-role-of-the-public-api-in-an-fsd-slice-and-how-does-it-support-refactoring)
 
 ---
 
@@ -49,9 +49,13 @@ Slices cannot use other slices on the same layer, and that helps with **high coh
 
 ---
 
-## [TODO] What is the role of the 'Public API' (index.ts) in an FSD slice?
-### Keywords
-
+## What is the role of the Public API in an FSD slice, and how does it support refactoring?
 ### Official Answer
+In the context of Feature-Sliced Design, the term public API refers to a slice or segment declaring what can be imported from it by other modules in the project.
 
-### Reference
+For example, in JavaScript that can be an index.js file re-exporting objects from other files in the slice.
+
+This enables freedom in refactoring code inside a slice as long as the contract with the outside world (i.e. the public API) stays the same.
+
+> 내 해석
+> 슬라이스나 세그먼트에서, 외부에 공개할 모듈만 따로 선택하기 위한 방법입니다.

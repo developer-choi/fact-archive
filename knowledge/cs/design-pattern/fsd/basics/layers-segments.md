@@ -6,6 +6,7 @@ tags: [fsd, architecture, layers, responsibility]
 - [Could you explain the seven layers of FSD and the specific responsibility of each layer?](#could-you-explain-the-seven-layers-of-fsd-and-the-specific-responsibility-of-each-layer)
   - [[TODO] What is the key difference between 'Entities' and 'Features' in FSD?](#todo-what-is-the-key-difference-between-entities-and-features-in-fsd)
   - [[TODO] What is the key difference between 'App' and 'Pages' in FSD?](#todo-what-is-the-key-difference-between-app-and-pages-in-fsd)
+- [What are segments in FSD, and what is the role of each one?](#what-are-segments-in-fsd-and-what-is-the-role-of-each-one)
 
 ---
 
@@ -55,3 +56,13 @@ Reusable functionality, especially when it's detached from the specifics of the 
 ### Official Answer
 
 ### Reference
+
+---
+
+## What are segments in FSD, and what is the role of each one?
+### Official Answer
+- **ui**: everything related to UI display: UI components, date formatters, styles, etc.
+- **api**: backend interactions: request functions, data types, mappers, etc. / for code that handles rendering and appearance
+- **model**: the data model: schemas, interfaces, stores, and business logic. / for storage and business logic
+- **lib**: library code that other modules on this slice need.
+- **config**: configuration files and feature flags. / for feature flags, environment variables and other forms of configuration
