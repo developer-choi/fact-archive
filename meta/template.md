@@ -12,9 +12,6 @@ tags: [keyword1, keyword2]
 # Answers
 
 ## Main Question 1
-### Keywords
-Core Keyword 1, Core Keyword 2
-
 ### Official Answer
 Official document text or objective fact (English preferred).
 > AI Annotation
@@ -26,9 +23,6 @@ Official document text or objective fact (English preferred).
 ---
 
 ## Follow-up Question 1
-### Keywords
-Same as above
-
 ### Official Answer
 Same as above
 

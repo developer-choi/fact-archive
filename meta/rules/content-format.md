@@ -42,22 +42,7 @@ tags: [react, performance, concept]
 
 ---
 
-## 3. Keywords
-
-### 작성 규칙
-- **언어**: 영어로 작성
-- **개수**: 핵심 용어 2-3개 추출
-- **선정 기준**: 답변의 핵심 개념을 대표하는 용어
-
-예시:
-```markdown
-### Keywords
-Cohesion, SRP
-```
-
----
-
-## 4. Official Answer
+## 3. Official Answer
 
 ### 작성 원칙
 - **영어 우선**: 공식 문서 원문 또는 객관적 사실을 영어로 작성

@@ -16,9 +16,6 @@ tags: [fsd, concept, slice, cohesion, coupling]
 
 ## What are slices in FSD, and what is their purpose?
 
-### Keywords
-Slice, Independent, Navigation
-
 ### Official Answer
 Their main purpose is to group code by its meaning for the product, business, or just the application.
 Slices are meant to be independent and highly cohesive groups of code files.
@@ -52,9 +49,6 @@ The problem manifests itself at least in violation of the principle of High Cohe
 
 ## What is cohesion, and what are some best practices to increase it?
 
-### Keywords
-Cohesion, SRP
-
 ### Official Answer
 > AI Annotation:
 > **Cohesion**은 쉽게 말해 "한 폴더(모듈) 안에 있는 코드들이 얼마나 친한가?"입니다.
@@ -70,9 +64,6 @@ Cohesion, SRP
 ---
 
 ## What is coupling, and how can we effectively decrease it in our architecture?
-
-### Keywords
-Coupling, Dependency
 
 ### Official Answer
 > AI Annotation:
@@ -93,9 +84,6 @@ Coupling, Dependency
 
 ## Why do the 'App' and 'Shared' layers skip the slice level, while other layers are required to have them?
 
-### Keywords
-Slice, Global, Domain
-
 ### Official Answer
 > AI Annotation: 앱 전체에 걸쳐 쓰이거나, 비즈니스 색깔이 전혀 없는 전역적인(Global) 성격을 가집니다. 여기에 슬라이스를 만들면 오히려 구조가 너무 파편화되어 찾기가 더 힘들어집니다. (예: `shared/button/ui` 보다 `shared/ui/button`이 관리하기 훨씬 편함)
 >
@@ -107,8 +95,6 @@ Slice, Global, Domain
 ---
 
 ## [TODO] What’s the domain?
-### Keywords
-
 ### Official Answer
 
 ### Reference

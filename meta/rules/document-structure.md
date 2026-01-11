@@ -65,8 +65,7 @@
 2. **Answers 섹션**: 제목과 하위 구조(Keywords, Official Answer 등)를 미리 만들어두되 내용은 비워둡니다.
    ```markdown
    ## [TODO] What is the domain?
-   ### Keywords
-
+   
    ### Official Answer
 
    ### Reference

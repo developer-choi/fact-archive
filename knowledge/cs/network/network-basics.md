@@ -26,8 +26,6 @@ tags: [network, concept, protocol]
 # Answers
 
 ## What’s the Network?
-### Keywords
-Node, Link, Protocol
 
 ### Official Answer
 A network is a group of communicating [computers](https://en.wikipedia.org/wiki/Computer) and [peripherals](https://en.wikipedia.org/wiki/Peripheral) known as [hosts](https://en.wikipedia.org/wiki/Host_(network)), which [communicate data](https://en.wikipedia.org/wiki/Data_communication) to other hosts via [communication protocols](https://en.wikipedia.org/wiki/Communication_protocol).
@@ -59,18 +57,15 @@ Hosts are assigned at least one network address.
 
 ## [TODO] What is the technical difference between a simple device and a Host?
 
-
 ---
 
 ## What's the Router?
 ...
 ## [TODO] What is the difference between Routing and Forwarding?
 
-
 ---
 
 ## [TODO] How does a router define the boundary of 'different networks'?
-
 
 ---
 
@@ -78,12 +73,9 @@ Hosts are assigned at least one network address.
 ...
 ## [TODO] Compare the Routing Table of a router and the MAC Address Table of a switch.
 
-
 ---
 
 ## What's the MAC address?
-### Keywords
-unique identifier, NIC, network segment
 
 ### Official Answer
 A MAC address is a **unique identifier** assigned to a network interface controller (NIC) for use as a network address in communications within a network segment.
@@ -110,8 +102,6 @@ IP Address를 Network Address라고 부른다.
 ---
 
 ## How are hosts identified within a network?
-### Keywords
-Network addresses
 
 ### Official Answer
 Within a computer network, hosts are identified by [network addresses](https://en.wikipedia.org/wiki/Network_address), which allow [networking hardware](https://en.wikipedia.org/wiki/Networking_hardware) to locate and identify hosts.
@@ -126,8 +116,6 @@ Within a computer network, hosts are identified by [network addresses](https://e
 ---
 
 ## What is a hostname, and how is it resolved to a network address?
-### Keywords
-hostname, Domain Name Service, hosts file
 
 ### Official Answer
 Hosts may also have [hostnames](https://en.wikipedia.org/wiki/Hostname), memorable labels for the host [nodes](https://en.wikipedia.org/wiki/Node_(networking)), which can be mapped to a network address using a [hosts file](https://en.wikipedia.org/wiki/File) or a name server such as [Domain Name Service](https://en.wikipedia.org/wiki/Domain_Name_Service).
@@ -143,8 +131,6 @@ Hosts may also have [hostnames](https://en.wikipedia.org/wiki/Hostname), memorab
 ---
 
 ## What’s the throughput?
-### Keywords
-rate of message, communication channel, bits per second
 
 ### Official Answer
 Network throughput (or just throughput, when in context) refers to the rate of message delivery over a [communication channel](https://en.wikipedia.org/wiki/Communication_channel) in a [communication network](https://en.wikipedia.org/wiki/Communication_network), such as [Ethernet](https://en.wikipedia.org/wiki/Ethernet).
@@ -165,8 +151,6 @@ The data that these messages contain may be delivered over physical or logical l
 ---
 
 ## Please compare Bandwidth and Throughput.
-### Keywords
-digital bandwidth consumption
 
 ### Official Answer
 Throughput represents [digital bandwidth](https://en.wikipedia.org/wiki/Bandwidth_(computing)) consumption.
@@ -182,8 +166,6 @@ Throughput represents [digital bandwidth](https://en.wikipedia.org/wiki/Bandwidt
 ---
 
 ## What causes low throughput?
-### Keywords
-physical medium, processing power, end-user behavior, goodput
 
 ### Official Answer
 The throughput of a communication system may be affected by various factors, including the limitations of the underlying physical medium, available processing power of the system components, [end-user](https://en.wikipedia.org/wiki/End-user) behavior, etc.
@@ -203,8 +185,6 @@ When taking various [protocol overheads](https://en.wikipedia.org/wiki/Protocol_
 ---
 
 ## (번외) 왜 하필 번역이 '처리량'일까?
-### Keywords
-Throughput, Morphemic Analysis
 
 > AI Annotation: **어원 분석 (LBL)**
 > - **Through** (통과하여) + **Put** (놓다, 투입하다) = 시스템 내부의 과정을 거쳐 결과물로 변환되어 나온 총량.

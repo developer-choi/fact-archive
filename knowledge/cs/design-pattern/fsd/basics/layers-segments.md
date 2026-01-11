@@ -17,9 +17,6 @@ tags: [fsd, architecture, layers, responsibility]
 
 ## What is the purpose of layers in FSD, and what is the responsibility of each layer?
 
-### Keywords
-FSD, Layers, Responsibility, Dependency
-
 ### Official Answer
 Their purpose is to separate code based on how much responsibility it needs and how many other modules in the app it depends on. Every layer carries special semantic meaning to help you determine how much responsibility you should allocate to your code.
 
@@ -62,8 +59,6 @@ Reusable functionality, especially when it's detached from the specifics of the 
 ---
 
 ## When should we use the 'Widgets' layer, and when should we avoid it?
-### Keywords
-Widgets, Reusability, Composition
 
 ### Official Answer
 The Widgets layer is intended for large self-sufficient blocks of UI. Widgets are most useful when they are reused across multiple pages, or when the page that they belong to has multiple large independent blocks, and this is one of them.
@@ -105,8 +100,6 @@ Specifically for entities/ui, it is primarily meant to reuse the same appearance
 ---
 
 ## [TODO] What is the key difference between 'App' and 'Pages' in FSD?
-### Keywords
-
 ### Official Answer
 
 ### Reference
@@ -164,9 +157,6 @@ Only the necessary parts of the slice should be exposed.
 ---
 
 ## Why should I avoid using wildcard re-exports in a public API within FSD?
-
-### Keywords
-Wildcard Re-export, Discoverability, Interface, Encapsulation
 
 ### Official Answer
 It may be tempting to create wildcard re-exports of everything, especially in early development of the slice, because any new objects you export from your files are also automatically exported from the slice:

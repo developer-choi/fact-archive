@@ -13,9 +13,6 @@ tags: [fsd, practice, troubleshooting]
 
 ## How should we handle it when two slices need to share the same logic?
 
-### Keywords
-Shared Logic, Composition
-
 ### Official Answer
 > AI Annotation:
 > 1. **Shared 레이어로 내리기**: 만약 공유하려는 로직이 특정 비즈니스와 무관한 순수 유틸리티라면 Shared 레이어로 이동시킵니다.
@@ -28,8 +25,6 @@ Shared Logic, Composition
 ---
 
 ## [TODO] How would you resolve a circular dependency between two different slices?
-### Keywords
-
 ### Official Answer
 
 ### Reference
@@ -37,8 +32,6 @@ Shared Logic, Composition
 ---
 
 ## [TODO] What are the major trade-offs or overheads you've experienced when implementing FSD?
-### Keywords
-
 ### Official Answer
 
 ### Reference

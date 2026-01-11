@@ -45,7 +45,6 @@
 
 #### 체크리스트
 - [ ] **Questions**: 질문 형태로 정리 (면접 질문 형태 권장)
-- [ ] **Keywords**: 핵심 용어 2-3개 추출 (영어)
 - [ ] **Official Answer**: 공식 문서 원문 또는 객관적 사실 (영어 우선)
   - [ ] AI가 설명한 내용: `> AI Annotation`으로 추가
   - [ ] 개인적 해석: `> User Annotation`으로 추가
@@ -76,7 +75,7 @@
 
 **작업**:
 1. 파일을 읽고 Questions 섹션에 새 질문 추가
-2. Answers 섹션에 답변 작성 (Keywords, Official Answer, Reference 포함)
+2. Answers 섹션에 답변 작성 (Official Answer, Reference 포함)
 3. Questions와 Answers의 순서 일치 확인
 
 ### Case 2: 새로운 파일 생성
@@ -94,5 +93,5 @@
 
 **작업**:
 1. TODO 질문을 찾아서 `[TODO]` 접두사 제거
-2. Keywords, Official Answer, Reference 작성
+2. Official Answer, Reference 작성
 3. [내용 작성 규칙](../rules/content-format.md)을 따라 형식 준수

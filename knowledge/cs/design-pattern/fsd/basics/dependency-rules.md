@@ -11,8 +11,6 @@ tags: [fsd, dependency, rules, unidirectional]
 # Answers
 
 ## Why is the unidirectional dependency rule important, and what happens if we violate it?
-### Keywords
-Stability, Refactoring, Isolation
 
 ### Official Answer
 A module on one layer cannot use other modules on the same layer, or the layers above.
@@ -31,9 +29,6 @@ https://feature-sliced.design/docs/get-started/overview
 ---
 
 ## Why is it forbidden for a slice to reference another slice within the same layer?
-
-### Keywords
-Cohesion, Coupling, Circular Dependency
 
 ### Official Answer
 Slices cannot use other slices on the same layer, and that helps with **high cohesion and low coupling.**
