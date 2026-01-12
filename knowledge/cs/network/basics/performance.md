@@ -13,9 +13,6 @@ tags: [network, performance, throughput, bandwidth]
 # Answers
 
 ## What’s the throughput?
-### Keywords
-rate of message, communication channel, bits per second
-
 ### Official Answer
 Network throughput (or just throughput, when in context) refers to the rate of message delivery over a [communication channel](https://en.wikipedia.org/wiki/Communication_channel) in a [communication network](https://en.wikipedia.org/wiki/Communication_network), such as [Ethernet](https://en.wikipedia.org/wiki/Ethernet).
 
@@ -29,15 +26,12 @@ The data that these messages contain may be delivered over physical or logical l
 > User Annotation: 처리량이라는 단어가 와닿지 않으면 '데이터 이동량'이나 '작업 완료 속도'로 이해해도 무방할 듯.
 
 ### Reference
-- [Network throughput - Wikipedia](https://en.wikipedia.org/wiki/Network_throughput)
-- [Bits per second - Wikipedia](https://en.wikipedia.org/wiki/Bits_per_second)
+- https://en.wikipedia.org/wiki/Network_throughput
+- https://en.wikipedia.org/wiki/Bits_per_second
 
 ---
 
 ## Please compare Bandwidth and Throughput.
-### Keywords
-digital bandwidth consumption
-
 ### Official Answer
 Throughput represents [digital bandwidth](https://en.wikipedia.org/wiki/Bandwidth_(computing)) consumption.
 
@@ -47,14 +41,11 @@ Throughput represents [digital bandwidth](https://en.wikipedia.org/wiki/Bandwidt
 > 즉, Throughput은 단순히 지나간 양이 아니라, 시스템이 감당해낸(처리해낸) 결과물이라는 뉘앙스가 강합니다.
 
 ### Reference
-- [Bandwidth (computing) - Wikipedia](https://en.wikipedia.org/wiki/Bandwidth_(computing))
+- https://en.wikipedia.org/wiki/Bandwidth_(computing)
 
 ---
 
 ## What causes low throughput?
-### Keywords
-physical medium, processing power, end-user behavior, goodput
-
 ### Official Answer
 The throughput of a communication system may be affected by various factors, including the limitations of the underlying physical medium, available processing power of the system components, [end-user](https://en.wikipedia.org/wiki/End-user) behavior, etc.
 
@@ -67,15 +58,11 @@ When taking various [protocol overheads](https://en.wikipedia.org/wiki/Protocol_
 > - **Goodput**: 데이터 전송 시 헤더(Header) 등 부가 정보를 제외하고, 실제 사용자가 받는 '순수 데이터'의 속도를 의미합니다. (택배 상자 무게를 뺀 내용물만의 무게와 같음)
 
 ### Reference
-- [Goodput - Wikipedia](https://en.wikipedia.org/wiki/Goodput)
-- [(Legacy) Network Overview](https://docs.google.com/document/d/1iGVkhRpG4RBhbpmI-AkHjRnOE8r7JyfyIxfjZH4UHCI/edit?tab=t.0#heading=h.oulolko7jpu0)
+- https://en.wikipedia.org/wiki/Goodput
 
 ---
 
 ## (번외) 왜 하필 번역이 '처리량'일까?
-### Keywords
-Throughput, Morphemic Analysis
-
 > AI Annotation: **어원 분석 (LBL)**
 > - **Through** (통과하여) + **Put** (놓다, 투입하다) = 시스템 내부의 과정을 거쳐 결과물로 변환되어 나온 총량.
 > - **Hardware View**: 데이터는 단순히 흐르는 것이 아니라, 장비(라우터 등)가 매 순간 **패킷 분석(Parsing), 경로 계산(Routing), 에러 검사(Checksum), 다시 포장해서 보냄(Forwarding)** 등의 작업을 수행해야 합니다. 이 모든 과정이 CPU와 메모리를 쓰는 '일(Work/Process)'이기에 '처리해서(Through) 내보낸 양(Put)'이라는 의미에서 **처리량**으로 번역된 것입니다.

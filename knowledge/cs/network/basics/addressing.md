@@ -15,16 +15,13 @@ tags: [network, addressing, mac, ip, dns]
 # Answers
 
 ## What's the MAC address?
-### Keywords
-unique identifier, NIC, network segment
-
 ### Official Answer
 A MAC address is a **unique identifier** assigned to a network interface controller (NIC) for use as a network address in communications within a network segment.
 
 MAC addresses are primarily assigned by device manufacturers, and are therefore often referred to as a physical address.
 
 ### Reference
-- [MAC address - Wikipedia](https://en.wikipedia.org/wiki/MAC_address)
+- https://en.wikipedia.org/wiki/MAC_address
 
 ---
 
@@ -37,8 +34,8 @@ MAC Address가 넓은 의미에서는 Network Address가 맞긴하지만,
 IP Address를 Network Address라고 부른다.
 
 ### Reference
-- [MAC address - Wikipedia](https://en.wikipedia.org/wiki/MAC_address)
-- [IP address - Wikipedia](https://en.wikipedia.org/wiki/IP_address)
+- https://en.wikipedia.org/wiki/MAC_address
+- https://en.wikipedia.org/wiki/IP_address
 
 ---
 
@@ -53,9 +50,6 @@ IP Address를 Network Address라고 부른다.
 ---
 
 ## How are hosts identified within a network?
-### Keywords
-Network addresses
-
 ### Official Answer
 Within a computer network, hosts are identified by [network addresses](https://en.wikipedia.org/wiki/Network_address), which allow [networking hardware](https://en.wikipedia.org/wiki/Networking_hardware) to locate and identify hosts.
 
@@ -64,14 +58,11 @@ Within a computer network, hosts are identified by [network addresses](https://e
 > User Annotation: IP, MAC 말고도 포트 번호나 서비스 ID 등 식별 수단은 상황에 따라 더 다양할 수 있음.
 
 ### Reference
-- [Network address - Wikipedia](https://en.wikipedia.org/wiki/Network_address)
+- https://en.wikipedia.org/wiki/Network_address
 
 ---
 
 ## What is a hostname, and how is it resolved to a network address?
-### Keywords
-hostname, Domain Name Service, hosts file
-
 ### Official Answer
 Hosts may also have [hostnames](https://en.wikipedia.org/wiki/Hostname), memorable labels for the host [nodes](https://en.wikipedia.org/wiki/Node_(networking)), which can be mapped to a network address using a [hosts file](https://en.wikipedia.org/wiki/File) or a name server such as [Domain Name Service](https://en.wikipedia.org/wiki/Domain_Name_Service).
 
@@ -80,5 +71,5 @@ Hosts may also have [hostnames](https://en.wikipedia.org/wiki/Hostname), memorab
 > 2. **DNS Server**: 로컬에 정보가 없다면 외부의 네임 서버(DNS)에 물어봅니다.
 
 ### Reference
-- [Hostname - Wikipedia](https://en.wikipedia.org/wiki/Hostname)
-- [Domain Name Service - Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_Service)
+- https://en.wikipedia.org/wiki/Hostname
+- https://en.wikipedia.org/wiki/Domain_Name_Service

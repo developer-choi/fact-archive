@@ -12,9 +12,6 @@ tags: [network, concept, definition]
 # Answers
 
 ## What’s the Network?
-### Keywords
-Node, Link, Protocol
-
 ### Official Answer
 A network is a group of communicating [computers](https://en.wikipedia.org/wiki/Computer) and [peripherals](https://en.wikipedia.org/wiki/Peripheral) known as [hosts](https://en.wikipedia.org/wiki/Host_(network)), which [communicate data](https://en.wikipedia.org/wiki/Data_communication) to other hosts via [communication protocols](https://en.wikipedia.org/wiki/Communication_protocol).
 
@@ -25,8 +22,8 @@ A network is a group of communicating [computers](https://en.wikipedia.org/wiki/
 > 개발자로서 'Host'는 단순히 컴퓨터가 아니라, IP 주소를 가지고 양방향 통신이 가능한 네트워크 인터페이스를 가진 모든 장치를 의미합니다.
 
 ### Reference
-- [Host (network) - Wikipedia](https://en.wikipedia.org/wiki/Host_(network))
-- [Communication protocol - Wikipedia](https://en.wikipedia.org/wiki/Communication_protocol)
+- https://en.wikipedia.org/wiki/Host_(network)
+- https://en.wikipedia.org/wiki/Communication_protocol
 
 ---
 
@@ -39,7 +36,7 @@ Hosts are assigned at least one network address.
 > 식별해야 보낼 수 있으니까, Network Address는 반드시 하나이상.
 
 ### Reference
-- [Host (network) - Wikipedia](https://en.wikipedia.org/wiki/Host_(network))
+- https://en.wikipedia.org/wiki/Host_(network)
 
 ---
 
