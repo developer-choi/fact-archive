@@ -1,6 +1,6 @@
-# Fact Archive
+# Knowledge Archive
 
-학습한 기술 지식 중 **객관적인 사실(Fact)**만을 모아두고, AI를 통해 복습하는 저장소입니다.
+학습한 기술 지식과 개인적인 인사이트를 체계적으로 모아두고, AI를 통해 복습하는 저장소입니다.
 
 ---
 
@@ -39,9 +39,9 @@ AI가 필요한 시점에 필요한 문서만 로드할 수 있도록 설계했�
 ## 프로젝트 구조
 
 ```
-fact-archive/
+knowledge-archive/
 ├─ instruction-map.md    # 문서 라우팅 맵
-├─ knowledge/            # 지식 보관소 (객관적 사실만)
+├─ knowledge/            # 지식 보관소 (사실 및 인사이트)
 ├─ playbook/             # 활용 가이드 (복습 등)
 └─ meta/                 # 프로젝트 관리 가이드
    ├─ agent.md           # AI 전역 규칙
@@ -58,7 +58,7 @@ Claude Code나 다른 AI 에이전트에서 작업을 요청하면 됩니다.
 ```
 "React Hooks 공부한 내용 정리해줘"
 "네트워크 관련 질문으로 복습하자"
-"구글 문서를 fact-archive 형식으로 변환해줘"
+"구글 문서를 knowledge-archive 형식으로 변환해줘"
 ```
 
 AI가 instruction-map.md를 참조해서 적절한 문서를 찾아 로드합니다.

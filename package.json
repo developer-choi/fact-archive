@@ -1,7 +1,7 @@
 {
-  "name": "fact-archive",
+  "name": "knowledge-archive",
   "version": "1.0.0",
-  "description": "지식 (사실)을 보관하고 AI에게 전달하여 질문-답변 방식으로 복습하기 위한 저장소",
+  "description": "학습한 기술 지식과 개인적인 인사이트를 통합 보관하고, AI를 통해 질문-답변 방식으로 복습하기 위한 저장소",
   "repository": {
     "type": "git",
     "url": "https://github.com/developer-choi/fact-archive.git"
